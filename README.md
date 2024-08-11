@@ -25,7 +25,7 @@ There should be no need for escaping, since that is too complex. Instead, we sho
 ◆ → U+25C6
 
 
-I have not decided whether to write subtex in Rust or Python. I also have not decided on the best way to implement “undo” or automatic file backups.
+I have not decided whether to write subtex in Rust or Python. I also have not decided on the best way to implement “undo” or automatic file backups. All commands will be prefixed by st to avoid conflicts with other programs or shell commands.
 
 **The ```on``` command**
 
